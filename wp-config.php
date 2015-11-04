@@ -47,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'u4{&=eF>Xgy6%bt59.F6r%_IheV]^i.G.YP0m1<tydw!h4*LL^rLVv:z! !HsS%S');
-define('SECURE_AUTH_KEY',  '[s3RZ-L>h#B2uzw@/VV&,^r0:(imkX7[4nNI)6vHeLtXQ4&EC0=87G1m^T(XUn.U');
-define('LOGGED_IN_KEY',    '>SJ&Qv$0|=/+!3T1CupSHWJ*cb)vVdR|{:jKT[]sW![jC}x1@8[]/>r+!oI*ZF@c');
-define('NONCE_KEY',        'Fl<a3:-JKFI1CpUI%&.cF}TJ7~lX1AWZVMv.udi/g]w)OHH.ug+78pQ{/?M5>.1`');
-define('AUTH_SALT',        'N<4ETJ*9H8RjfW|6LgztFkdiN uI<}mOncK_S>EZ9v.2U?3gZ/jN^+dYOrPf>zXf');
-define('SECURE_AUTH_SALT', '[oDtIkFd|P9p&*|E G(a+{50]#|5|?00T4ArS.+8${zz+hhcps{[F7c)hLe$KEpd');
-define('LOGGED_IN_SALT',   '}KFuLas>?4_k0{zx[M}oDF|zTW#9a7Yt610K#Ok[I29+vexMr?;Q3I#,J~*06r#q');
-define('NONCE_SALT',       'QgXc++Kkd!Bib]uf;dxt.$FBL|#u|*:Vx&UI(LaD#/%_d@:_7Q5K9uU_Z`rq]Yju');
+define('AUTH_KEY',         'HT#D(TO+*!zs<>S-g35t3z5?]W:gZyom #_HGC+,&e-qZ|Cs+N{FsX}jpcWr9 !i');
+define('SECURE_AUTH_KEY',  'y+;/1yxFRuJZ;{`9nK-kN(Mo6tUL{-J5<@_.m|S+;$BrtONEQh|hp74y-GRzG@S|');
+define('LOGGED_IN_KEY',    'uBXdwPw,`]eKCu#i.Kb8ti,+rGpZ5~wj|})nxf<?yK@s-/aTs)Wpv[?fH^iW8@-h');
+define('NONCE_KEY',        ']NJ6AX+*jghTY34N-..]S^4lt8nz@3#;E>WCx|n]WO.+j,k|a0W7DKKC9z;?lEuv');
+define('AUTH_SALT',        'P]8|9++HYV_+7^l;UKm| M|}M?)M#?LBphLap=V>I0_$|l:?|>Xoi@Ss^ b=C$37');
+define('SECURE_AUTH_SALT', '*1n6sEC|iMAkX<Q-w)&+H{c|OJPDJ_?4$1aocw^}27W~]eElHzgO2Ye`+LU,(N&,');
+define('LOGGED_IN_SALT',   '`!-7@,ZgpJ=S?1|B^*lI=J_W($@<$YaQBAF?B!)Yy0eD+gS3iwFXx?wgo^;i&~$@');
+define('NONCE_SALT',       'kMx&t3kp+hld%d Xeh+4Uh/bn*_-KYm*rp@<s&;lPx&.DXlut;?R|)JQI_9^Kail');
 
 /**#@-*/
 
@@ -94,14 +94,3 @@ if ( !defined('ABSPATH') )
 
 /** 设置WordPress变量和包含文件。 */
 require_once(ABSPATH . 'wp-settings.php');
-
-
-
-/**解决权限问题  */
-
-define("FS_METHOD","direct");
-
-define("FS_CHMOD_DIR", 0777);
-
-define("FS_CHMOD_FILE", 0777);
-
