@@ -1,3 +1,3 @@
 # my php web 
 ---
-based on wordpress and bootstrap
+前端基于bootstrap,后端使用php的lavarel库
